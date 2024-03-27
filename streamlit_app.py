@@ -2,9 +2,11 @@ import streamlit as st
 import random
 import time
 
+st.set_page_config("🔮 Karma Got You 🔮", page_icon="🔮")
+st.title("🔮 Karma Got You 🔮")
+
 # This is the beginning or introductory portion of the game. Context is given and the user is given the option to join or not join the adventure. The user is asked to give their name.
 
-st.set_page_config("🔮 Karma Got You 🔮", page_icon="🔮")
 st.write(
     "You are sitting at home coding when a gnome breaks into your room through the air vent and disappears with your dog."
     "\nWould you like to chase the gnome and save your dog?"

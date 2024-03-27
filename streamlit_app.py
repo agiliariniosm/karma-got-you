@@ -17,7 +17,7 @@ if play_game == "yes":
     st.write("You have chosen to embark on an adventure.")
     name = st.text_input("What name will you use on this quest? ")
 else:
-    print("Karma will get you. Have a good day.")
+    st.write("Karma will get you. Have a good day.")
     quit()
 
 

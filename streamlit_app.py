@@ -9,15 +9,14 @@ st.write(
     "You are sitting at home coding when a gnome breaks into your room through the air vent and disappears with your dog."
     "\nWould you like to chase the gnome and save your dog?"
  )
-st.text_input(
-play_game = st.text_input("Type yes or no: ").lower()
 
-# if play_game == "yes":
-#     print("You have chosen to embark on an adventure.")
-#     name = input("What name will you use on this quest? ")
-# else:
-#     print("Karma will get you. Have a good day.")
-#     quit()
+play_game = st.text_input("Type yes or no: ").lower()
+if play_game == "yes":
+    st.write("You have chosen to embark on an adventure.")
+    name = st.text_input("What name will you use on this quest? ")
+else:
+    print("Karma will get you. Have a good day.")
+    quit()
 
 
 # # Create list of options for "rock, fire, ice" game, an alternative to "rock, paper, scissors."
